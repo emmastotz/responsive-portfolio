@@ -177,14 +177,15 @@ footer {
 @media screen and (min-width:641px) and (max-width:768px){
     h1 {
         font-weight: lighter;
-        font-size: 16pt;
+        font-size: 12pt;
         width: auto;
+        letter-spacing: 2pt;
     }
     div.navigation {
-        font-size: 12px;
+        font-size: 10px;
         text-align: right;
         margin-right: 1%;
-        margin-top: 20%;
+        /* margin-top: 20%; */
     }
     div.icon {
         float: none;
@@ -194,11 +195,12 @@ footer {
 @media screen and (max-width:640px){
     h1 {
         font-weight: lighter;
-        font-size: 16pt;
+        font-size: 8pt;
         width: auto;
+        letter-spacing: 1pt;
     }
     div.navigation {
-        font-size: 8pt;
+        font-size: 6pt;
     } 
     div.icon {
         float: none;
