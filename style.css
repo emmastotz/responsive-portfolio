@@ -31,13 +31,13 @@ h1 {
     padding: 1%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 24pt;
+    font-size: 18pt;
     letter-spacing: 6px;
 }
 
 /* Navigation Bar */
 div.navigation {
-    font-size: 16px;
+    font-size: 12pt;
     text-align: right;
     margin-right: 4%;
     margin-top: 20%;
@@ -85,8 +85,8 @@ div.about-me {
 
 div.about-image img {
     float: left;
-    max-width:25%;
-    height:auto;
+    max-width: 200px;
+    height: auto;
     border: none; 
 }
 
@@ -129,7 +129,7 @@ div.message input {
 
 /* Portfolio */
 div.portfolio {
-    height: 420px;
+    height: auto;
     margin: 2%;
     padding: 2%;
     border: solid;
@@ -168,13 +168,13 @@ footer {
 /* End Footer */
 
 /* Media Queries */
-@media screen and (max-width:980px){
+@media screen and (min-width: 769px) and (max-width:980px){
     div.navigation {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:641px) and (max-width:768px){
     h1 {
         font-weight: lighter;
         font-size: 16pt;
@@ -187,20 +187,20 @@ footer {
         margin-top: 20%;
     }
     div.icon {
-        max-width: 
-    }
-    div.about-image img {
-        align-content: center;
+        float: none;
     }
 }
 
 @media screen and (max-width:640px){
-    header {
-        position: static;
-    }
     h1 {
-        position: absolute;
+        font-weight: lighter;
+        font-size: 16pt;
+        width: auto;
     }
     div.navigation {
-        font-size: 8px;
+        font-size: 8pt;
+    } 
+    div.icon {
+        float: none;
+    }
 }
