@@ -1,8 +1,5 @@
-# responsive-portfolio
-Adding in responsiveness features to first homework
-
 ### **Responsive Portfolio**
-#### Adding in responsiveness to first portfolio using media queries.
+#### Adding in responsiveness to first portfolio project using media queries.
 
 ##### Overview
 * assets (contains all images used in this project)
@@ -17,7 +14,6 @@ Adding in responsiveness features to first homework
 
 ##### Technologies Used
 * CSS3
-* Bootstrap 4
 * HTML5
 
 This portfolio was created by Emma Stotz
